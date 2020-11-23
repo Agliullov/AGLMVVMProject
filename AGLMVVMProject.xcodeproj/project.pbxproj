@@ -1,0 +1,774 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0FC285C38E3668E98B7A8733 /* libPods-AGLMVVMProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CA0F5A4A52D6ED43F2DFE29E /* libPods-AGLMVVMProject.a */; };
+		A502A2E944D75DE3FA68BFFB /* libPods-AGLMVVMProject-AGLMVVMProjectTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1750CB74723515C8808CB904 /* libPods-AGLMVVMProject-AGLMVVMProjectTests.a */; };
+		B9B98917256AA0410016E536 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B98916256AA0410016E536 /* AppDelegate.swift */; };
+		B9B98919256AA0410016E536 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B98918256AA0410016E536 /* SceneDelegate.swift */; };
+		B9B9891B256AA0410016E536 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9891A256AA0410016E536 /* ViewController.swift */; };
+		B9B9891E256AA0410016E536 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B9891C256AA0410016E536 /* Main.storyboard */; };
+		B9B98921256AA0410016E536 /* AGLMVVMProject.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B9B9891F256AA0410016E536 /* AGLMVVMProject.xcdatamodeld */; };
+		B9B98923256AA0420016E536 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9B98922256AA0420016E536 /* Assets.xcassets */; };
+		B9B98926256AA0420016E536 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9B98924256AA0420016E536 /* LaunchScreen.storyboard */; };
+		B9B98931256AA0420016E536 /* AGLMVVMProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B98930256AA0420016E536 /* AGLMVVMProjectTests.swift */; };
+		B9B9893C256AA0420016E536 /* AGLMVVMProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B9893B256AA0420016E536 /* AGLMVVMProjectUITests.swift */; };
+		B9B98973256AF5330016E536 /* FoodModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9B98972256AF5330016E536 /* FoodModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B9B9892D256AA0420016E536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B9890B256AA0410016E536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B98912256AA0410016E536;
+			remoteInfo = AGLMVVMProject;
+		};
+		B9B98938256AA0420016E536 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9B9890B256AA0410016E536 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B9B98912256AA0410016E536;
+			remoteInfo = AGLMVVMProject;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0283111BF432F48DF8214874 /* Pods-AGLMVVMProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLMVVMProjectTests.release.xcconfig"; path = "Target Support Files/Pods-AGLMVVMProjectTests/Pods-AGLMVVMProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+		1750CB74723515C8808CB904 /* libPods-AGLMVVMProject-AGLMVVMProjectTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGLMVVMProject-AGLMVVMProjectTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		31FA249D5E0434B065EE9F93 /* Pods-AGLMVVMProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLMVVMProject.debug.xcconfig"; path = "Target Support Files/Pods-AGLMVVMProject/Pods-AGLMVVMProject.debug.xcconfig"; sourceTree = "<group>"; };
+		3D261B42EB046D7B27B868A5 /* Pods-AGLMVVMProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLMVVMProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-AGLMVVMProjectTests/Pods-AGLMVVMProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		51DDD4991BCA639FC73BEFA8 /* Pods-AGLMVVMProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLMVVMProject.release.xcconfig"; path = "Target Support Files/Pods-AGLMVVMProject/Pods-AGLMVVMProject.release.xcconfig"; sourceTree = "<group>"; };
+		6974A93F2E9380423F40BDD7 /* Pods-AGLMVVMProject-AGLMVVMProjectTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLMVVMProject-AGLMVVMProjectTests.debug.xcconfig"; path = "Target Support Files/Pods-AGLMVVMProject-AGLMVVMProjectTests/Pods-AGLMVVMProject-AGLMVVMProjectTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B9B98913256AA0410016E536 /* AGLMVVMProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AGLMVVMProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B98916256AA0410016E536 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B9B98918256AA0410016E536 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B9B9891A256AA0410016E536 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B9B9891D256AA0410016E536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B9B98920256AA0410016E536 /* AGLMVVMProject.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AGLMVVMProject.xcdatamodel; sourceTree = "<group>"; };
+		B9B98922256AA0420016E536 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B9B98925256AA0420016E536 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B9B98927256AA0420016E536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B9892C256AA0420016E536 /* AGLMVVMProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGLMVVMProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B98930256AA0420016E536 /* AGLMVVMProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGLMVVMProjectTests.swift; sourceTree = "<group>"; };
+		B9B98932256AA0420016E536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B98937256AA0420016E536 /* AGLMVVMProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AGLMVVMProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9B9893B256AA0420016E536 /* AGLMVVMProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AGLMVVMProjectUITests.swift; sourceTree = "<group>"; };
+		B9B9893D256AA0420016E536 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9B98972256AF5330016E536 /* FoodModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodModel.swift; sourceTree = "<group>"; };
+		CA0F5A4A52D6ED43F2DFE29E /* libPods-AGLMVVMProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AGLMVVMProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7F8C5920E35FF96B4EF5466 /* Pods-AGLMVVMProject-AGLMVVMProjectTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AGLMVVMProject-AGLMVVMProjectTests.release.xcconfig"; path = "Target Support Files/Pods-AGLMVVMProject-AGLMVVMProjectTests/Pods-AGLMVVMProject-AGLMVVMProjectTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B9B98910256AA0410016E536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FC285C38E3668E98B7A8733 /* libPods-AGLMVVMProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B98929256AA0420016E536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A502A2E944D75DE3FA68BFFB /* libPods-AGLMVVMProject-AGLMVVMProjectTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B98934256AA0420016E536 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CB652BB6F247D4028D5F371 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA0F5A4A52D6ED43F2DFE29E /* libPods-AGLMVVMProject.a */,
+				1750CB74723515C8808CB904 /* libPods-AGLMVVMProject-AGLMVVMProjectTests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9028F54DACD74A5523E731E7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				31FA249D5E0434B065EE9F93 /* Pods-AGLMVVMProject.debug.xcconfig */,
+				51DDD4991BCA639FC73BEFA8 /* Pods-AGLMVVMProject.release.xcconfig */,
+				3D261B42EB046D7B27B868A5 /* Pods-AGLMVVMProjectTests.debug.xcconfig */,
+				0283111BF432F48DF8214874 /* Pods-AGLMVVMProjectTests.release.xcconfig */,
+				6974A93F2E9380423F40BDD7 /* Pods-AGLMVVMProject-AGLMVVMProjectTests.debug.xcconfig */,
+				F7F8C5920E35FF96B4EF5466 /* Pods-AGLMVVMProject-AGLMVVMProjectTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B9B9890A256AA0410016E536 = {
+			isa = PBXGroup;
+			children = (
+				B9B98915256AA0410016E536 /* AGLMVVMProject */,
+				B9B9892F256AA0420016E536 /* AGLMVVMProjectTests */,
+				B9B9893A256AA0420016E536 /* AGLMVVMProjectUITests */,
+				B9B98914256AA0410016E536 /* Products */,
+				9028F54DACD74A5523E731E7 /* Pods */,
+				5CB652BB6F247D4028D5F371 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B9B98914256AA0410016E536 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B9B98913256AA0410016E536 /* AGLMVVMProject.app */,
+				B9B9892C256AA0420016E536 /* AGLMVVMProjectTests.xctest */,
+				B9B98937256AA0420016E536 /* AGLMVVMProjectUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B9B98915256AA0410016E536 /* AGLMVVMProject */ = {
+			isa = PBXGroup;
+			children = (
+				B9B98950256AA06C0016E536 /* App */,
+				B9B98959256AA11A0016E536 /* Modules */,
+				B9B98952256AA08F0016E536 /* Resourses */,
+				B9B98951256AA07E0016E536 /* Storyboards */,
+			);
+			path = AGLMVVMProject;
+			sourceTree = "<group>";
+		};
+		B9B9892F256AA0420016E536 /* AGLMVVMProjectTests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B98930256AA0420016E536 /* AGLMVVMProjectTests.swift */,
+				B9B98932256AA0420016E536 /* Info.plist */,
+			);
+			path = AGLMVVMProjectTests;
+			sourceTree = "<group>";
+		};
+		B9B9893A256AA0420016E536 /* AGLMVVMProjectUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B9B9893B256AA0420016E536 /* AGLMVVMProjectUITests.swift */,
+				B9B9893D256AA0420016E536 /* Info.plist */,
+			);
+			path = AGLMVVMProjectUITests;
+			sourceTree = "<group>";
+		};
+		B9B9894F256AA05B0016E536 /* CoreDataFiles */ = {
+			isa = PBXGroup;
+			children = (
+				B9B9891F256AA0410016E536 /* AGLMVVMProject.xcdatamodeld */,
+			);
+			path = CoreDataFiles;
+			sourceTree = "<group>";
+		};
+		B9B98950256AA06C0016E536 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				B9B98916256AA0410016E536 /* AppDelegate.swift */,
+				B9B98918256AA0410016E536 /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		B9B98951256AA07E0016E536 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				B9B98924256AA0420016E536 /* LaunchScreen.storyboard */,
+				B9B9891C256AA0410016E536 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		B9B98952256AA08F0016E536 /* Resourses */ = {
+			isa = PBXGroup;
+			children = (
+				B9B98922256AA0420016E536 /* Assets.xcassets */,
+				B9B98927256AA0420016E536 /* Info.plist */,
+				B9B9894F256AA05B0016E536 /* CoreDataFiles */,
+			);
+			path = Resourses;
+			sourceTree = "<group>";
+		};
+		B9B98959256AA11A0016E536 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				B9B9895A256AA1240016E536 /* Model */,
+				B9B9895B256AA1280016E536 /* View */,
+				B9B9895C256AA12E0016E536 /* ViewModel */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		B9B9895A256AA1240016E536 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B9B98972256AF5330016E536 /* FoodModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B9B9895B256AA1280016E536 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B9B9891A256AA0410016E536 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B9B9895C256AA12E0016E536 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B9B98912256AA0410016E536 /* AGLMVVMProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B98940256AA0420016E536 /* Build configuration list for PBXNativeTarget "AGLMVVMProject" */;
+			buildPhases = (
+				B2483AE6D83534C7A860ADE2 /* [CP] Check Pods Manifest.lock */,
+				B9B9890F256AA0410016E536 /* Sources */,
+				B9B98910256AA0410016E536 /* Frameworks */,
+				B9B98911256AA0410016E536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AGLMVVMProject;
+			productName = AGLMVVMProject;
+			productReference = B9B98913256AA0410016E536 /* AGLMVVMProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B9B9892B256AA0420016E536 /* AGLMVVMProjectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B98943256AA0420016E536 /* Build configuration list for PBXNativeTarget "AGLMVVMProjectTests" */;
+			buildPhases = (
+				D9444B163F60A60C1C3A2094 /* [CP] Check Pods Manifest.lock */,
+				B9B98928256AA0420016E536 /* Sources */,
+				B9B98929256AA0420016E536 /* Frameworks */,
+				B9B9892A256AA0420016E536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B9892E256AA0420016E536 /* PBXTargetDependency */,
+			);
+			name = AGLMVVMProjectTests;
+			productName = AGLMVVMProjectTests;
+			productReference = B9B9892C256AA0420016E536 /* AGLMVVMProjectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B9B98936256AA0420016E536 /* AGLMVVMProjectUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B9B98946256AA0420016E536 /* Build configuration list for PBXNativeTarget "AGLMVVMProjectUITests" */;
+			buildPhases = (
+				B9B98933256AA0420016E536 /* Sources */,
+				B9B98934256AA0420016E536 /* Frameworks */,
+				B9B98935256AA0420016E536 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B9B98939256AA0420016E536 /* PBXTargetDependency */,
+			);
+			name = AGLMVVMProjectUITests;
+			productName = AGLMVVMProjectUITests;
+			productReference = B9B98937256AA0420016E536 /* AGLMVVMProjectUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B9B9890B256AA0410016E536 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				TargetAttributes = {
+					B9B98912256AA0410016E536 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+					B9B9892B256AA0420016E536 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = B9B98912256AA0410016E536;
+					};
+					B9B98936256AA0420016E536 = {
+						CreatedOnToolsVersion = 12.1;
+						TestTargetID = B9B98912256AA0410016E536;
+					};
+				};
+			};
+			buildConfigurationList = B9B9890E256AA0410016E536 /* Build configuration list for PBXProject "AGLMVVMProject" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B9B9890A256AA0410016E536;
+			productRefGroup = B9B98914256AA0410016E536 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B9B98912256AA0410016E536 /* AGLMVVMProject */,
+				B9B9892B256AA0420016E536 /* AGLMVVMProjectTests */,
+				B9B98936256AA0420016E536 /* AGLMVVMProjectUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B9B98911256AA0410016E536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B98926256AA0420016E536 /* LaunchScreen.storyboard in Resources */,
+				B9B98923256AA0420016E536 /* Assets.xcassets in Resources */,
+				B9B9891E256AA0410016E536 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B9892A256AA0420016E536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B98935256AA0420016E536 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		B2483AE6D83534C7A860ADE2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AGLMVVMProject-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D9444B163F60A60C1C3A2094 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AGLMVVMProject-AGLMVVMProjectTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B9B9890F256AA0410016E536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B98973256AF5330016E536 /* FoodModel.swift in Sources */,
+				B9B98921256AA0410016E536 /* AGLMVVMProject.xcdatamodeld in Sources */,
+				B9B9891B256AA0410016E536 /* ViewController.swift in Sources */,
+				B9B98917256AA0410016E536 /* AppDelegate.swift in Sources */,
+				B9B98919256AA0410016E536 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B98928256AA0420016E536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B98931256AA0420016E536 /* AGLMVVMProjectTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9B98933256AA0420016E536 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B9B9893C256AA0420016E536 /* AGLMVVMProjectUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B9B9892E256AA0420016E536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B98912256AA0410016E536 /* AGLMVVMProject */;
+			targetProxy = B9B9892D256AA0420016E536 /* PBXContainerItemProxy */;
+		};
+		B9B98939256AA0420016E536 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B9B98912256AA0410016E536 /* AGLMVVMProject */;
+			targetProxy = B9B98938256AA0420016E536 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B9B9891C256AA0410016E536 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B9891D256AA0410016E536 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B9B98924256AA0420016E536 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B9B98925256AA0420016E536 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B9B9893E256AA0420016E536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B9B9893F256AA0420016E536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9B98941256AA0420016E536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31FA249D5E0434B065EE9F93 /* Pods-AGLMVVMProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2N97D98Q8;
+				INFOPLIST_FILE = AGLMVVMProject/Resourses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rain.AGLMVVMProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B9B98942256AA0420016E536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51DDD4991BCA639FC73BEFA8 /* Pods-AGLMVVMProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2N97D98Q8;
+				INFOPLIST_FILE = AGLMVVMProject/Resourses/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rain.AGLMVVMProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B9B98944256AA0420016E536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6974A93F2E9380423F40BDD7 /* Pods-AGLMVVMProject-AGLMVVMProjectTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2N97D98Q8;
+				INFOPLIST_FILE = AGLMVVMProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rain.AGLMVVMProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGLMVVMProject.app/AGLMVVMProject";
+			};
+			name = Debug;
+		};
+		B9B98945256AA0420016E536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7F8C5920E35FF96B4EF5466 /* Pods-AGLMVVMProject-AGLMVVMProjectTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2N97D98Q8;
+				INFOPLIST_FILE = AGLMVVMProjectTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rain.AGLMVVMProjectTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AGLMVVMProject.app/AGLMVVMProject";
+			};
+			name = Release;
+		};
+		B9B98947256AA0420016E536 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2N97D98Q8;
+				INFOPLIST_FILE = AGLMVVMProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rain.AGLMVVMProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AGLMVVMProject;
+			};
+			name = Debug;
+		};
+		B9B98948256AA0420016E536 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = U2N97D98Q8;
+				INFOPLIST_FILE = AGLMVVMProjectUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Rain.AGLMVVMProjectUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AGLMVVMProject;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B9B9890E256AA0410016E536 /* Build configuration list for PBXProject "AGLMVVMProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B9893E256AA0420016E536 /* Debug */,
+				B9B9893F256AA0420016E536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B98940256AA0420016E536 /* Build configuration list for PBXNativeTarget "AGLMVVMProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B98941256AA0420016E536 /* Debug */,
+				B9B98942256AA0420016E536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B98943256AA0420016E536 /* Build configuration list for PBXNativeTarget "AGLMVVMProjectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B98944256AA0420016E536 /* Debug */,
+				B9B98945256AA0420016E536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B9B98946256AA0420016E536 /* Build configuration list for PBXNativeTarget "AGLMVVMProjectUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9B98947256AA0420016E536 /* Debug */,
+				B9B98948256AA0420016E536 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B9B9891F256AA0410016E536 /* AGLMVVMProject.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B9B98920256AA0410016E536 /* AGLMVVMProject.xcdatamodel */,
+			);
+			currentVersion = B9B98920256AA0410016E536 /* AGLMVVMProject.xcdatamodel */;
+			path = AGLMVVMProject.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B9B9890B256AA0410016E536 /* Project object */;
+}

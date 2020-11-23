@@ -1,0 +1,6 @@
+module Pods_AGLMVVMProject_AGLMVVMProjectTests {
+  umbrella header "Pods-AGLMVVMProject-AGLMVVMProjectTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
